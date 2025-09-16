@@ -1,0 +1,1 @@
+[{"uid":"c541e8c5d4fbbcab","name":"Dark -> Light toggle persists via localStorage","time":{"start":1758052812791,"stop":1758052816040,"duration":3249},"status":"passed","severity":"normal"},{"uid":"3a1df66c7b1de970","name":"Validate GA collect params before/after consent","time":{"start":1758052812793,"stop":1758052830516,"duration":17723},"status":"failed","severity":"normal"}]

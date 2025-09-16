@@ -1,0 +1,24 @@
+{
+  "name": "playwright-ga-darkmode-js",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "allure:generate": "allure generate ./allure-results --clean -o ./allure-report",
+    "allure:open": "allure open ./allure-report",
+    "format": "prettier --write .",
+    "lint": "eslint . --ext .js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "allure-commandline": "^2.29.0",
+    "allure-playwright": "^2.13.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "prettier": "^3.3.3"
+  }
+}
