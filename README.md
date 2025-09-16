@@ -1,62 +1,64 @@
 # Playwright + Allure demo (GA params & Dark Mode persistence) - JavaScript
 
-Tech Stack
+**Tech Stack**
 
-Playwright → browser automation & testing framework
+1) Playwright → browser automation & testing framework
 
-JavaScript (ESM) → test implementation language
+2) JavaScript (ESM) → test implementation language
 
-Page Object Model (OOP) → modular & maintainable structure
+3) Page Object Model (OOP) → modular & maintainable structure
 
-Allure Playwright → advanced test reporting (steps, screenshots, annotations)
+4) Allure Playwright → advanced test reporting (steps, screenshots, annotations)
 
-Prettier → code formatting
+5) Prettier → code formatting
 
-ESLint → code linting, enforces best practices
+6) ESLint → code linting, enforces best practices
 
-Node.js 18+ → runtime environment
+7) Node.js 18+ → runtime environment
 
-Allure Commandline → generate & open rich HTML test reports
+8) Allure Commandline → generate & open rich HTML test reports
 
 
 Setup Instructions
-1. Clone or extract
+1. Clone or extract the Repo and move to the project directory
 
-
-
-2. Install dependencies
+2. **Install dependencies**
 npm install
 
-3. Install Playwright browsers
+3.** Install Playwright browsers**
 npx playwright install --with-deps
 
-▶️ Running Tests
+**Running Tests**
 
-Run all tests:
+**Run all tests:**
 
 npm test
 
+**Run a single suite:**
+
+1) npx playwright test tests/politics.ga.spec.js
+2) npx playwright test tests/newscientist.darkmode.spec.js
 
 
-
-Run a single suite:
-
-npx playwright test tests/politics.ga.spec.js
-npx playwright test tests/newscientist.darkmode.spec.js
-
-
-Run headed mode (see browser):
+**Run headed mode (see browser):**
 
 npm run test:headed
 
-📊 Allure Reports
+**Allure Reports**
 
-Generate the report:
+**Generate the report:**
 
 npm run allure:generate
 
-
-Open in browser:
+**Open in browser:**
 
 npm run allure:open
+
+**Sample Allure report: **
+
+<img width="1704" height="799" alt="image" src="https://github.com/user-attachments/assets/0c3486d9-d438-4ce3-ad7c-6d1cd70089f9" />
+
+
+<img width="1708" height="892" alt="image" src="https://github.com/user-attachments/assets/c9b7ddab-cf88-421b-a7fe-9cca0edadfb3" />
+
 
