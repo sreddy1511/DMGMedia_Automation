@@ -16,7 +16,7 @@ export class BasePage {
     if (await accept.first().isVisible()) {
       await accept.first().click();
       await expect(this.page.locator('#onetrust-banner-sdk, #onetrust-consent-sdk')).toBeHidden({
-        timeout: 10_000
+        timeout: 10000
       });
     }
   }
@@ -24,6 +24,6 @@ export class BasePage {
   async assertModalGone() {
     await expect(
       this.page.locator('#onetrust-banner-sdk, #onetrust-consent-sdk, .ot-sdk-container')
-    ).toBeHidden({ timeout: 10_000 });
+    ).toBeHidden({ timeout: 10000 });
   }
 }
