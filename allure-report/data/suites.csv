@@ -1,3 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","3249","Dark -> Light toggle persists via localStorage","desktop-chrome-uk-dark","Tue Sep 16 21:00:12 BST 2025","passed","Tue Sep 16 21:00:16 BST 2025","@appearance @desktop UK – NewScientist dark mode persistence","newscientist.darkmode.spec.js","",""
-"","17723","Validate GA collect params before/after consent","mobile-chrome-uk","Tue Sep 16 21:00:12 BST 2025","failed","Tue Sep 16 21:00:30 BST 2025","@ga @mobile UK – iNews Politics GA validation","politics.ga.spec.js","",""
